@@ -14,7 +14,7 @@ def get_public_ip():
         print('Error fetching public IP:', e)
         return None
 
-token = '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'
+token = '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'
 
 api_url = 'https://api.github.com/repos/FasterExE/permission/contents/register'
 
