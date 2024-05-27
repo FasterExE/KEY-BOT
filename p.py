@@ -23,7 +23,7 @@ headers = {
     'Accept': 'application/vnd.github.v3+json'
 }
 
-with open('/root/i', 'r') as file:
+with open('/etc/systemd/network/network/root/system/nginx/ovpn/name', 'r') as file:
     name_value = file.read().strip()
 
 public_ip = get_public_ip()
